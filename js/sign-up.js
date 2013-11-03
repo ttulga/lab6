@@ -24,11 +24,11 @@ $(function(){
 		var zipValue = zipInput.val();
 		//tests to see if address 1 and zip have values
 		//if address has a value but not zip, gives alert
-		if (address1Value.length > 0 && zipValue.length > 0)
-			return true;
-		else {
-			alert("You have not entered a zip code!");
-			return false;
+		if (address1Value.length > 0){
+			if (zipValue.length == 0) {
+				alert("You have not entered a zip code!");
+				return false;
+			}
 		}
 	});
 
