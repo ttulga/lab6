@@ -1,3 +1,4 @@
-/* styles.css 
-    use this for any custom styles
-*/
+/* undisables "other" input when "other" is chosen */
+input[name="refer-other"] {
+    display: none;
+}
