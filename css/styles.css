@@ -1,4 +1,4 @@
-/* undisables "other" input when "other" is chosen */
+/* undisables "other" input when "other" ref is chosen */
 input[name="refer-other"] {
     display: none;
 }
