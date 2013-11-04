@@ -13,7 +13,7 @@ $(function(){
 		option.html(state.name);
 		select.append(option);
 	} //load states
-	//
+	
 	$('.signup-form').submit(function(){
 		var form = $(this);
 		//gets the value for the address 1 input
@@ -30,7 +30,7 @@ $(function(){
 				return false;
 			}
 		}
-	});
+	}); //zip validation
 
 	$('select[name="refer"]').change(function(){
 	    //get a ref to the refer select
